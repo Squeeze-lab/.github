@@ -18,3 +18,4 @@ jobs:
                 github-token: ${{ secrets.AUTO_ADD_ISSUES_TO_UX_PROJECT_BOARD }}
                 labeled: ux, 🚨 ux/triage, 🔁 ux/consistency, ♿️ accessibility, 🚨 accessibility/concern, 👱‍♀️ status/research, 🎨 status/design
                 label-operator: OR
+
