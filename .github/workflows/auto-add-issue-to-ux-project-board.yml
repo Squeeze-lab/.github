@@ -7,12 +7,12 @@ on:
                 required: false
 
 jobs:
-    add-to-project:
+    add_to_project:
         name: Add issue to project
         runs-on: ubuntu-latest
         steps:
             - uses: actions/add-to-project@v1.0.2
-            with:
+              with:
                 project-url: https://github.com/orgs/Squeeze-lab/projects/1
                 github-token: ${{ secrets.AUTO_ADD_ISSUES_TO_UX_PROJECT_BOARD }}
                 labeled: ux, 🚨 ux/triage, 🔁 ux/consistency, ♿️ accessibility, 🚨 accessibility/concern, 👱‍♀️ status/research, 🎨 status/design
